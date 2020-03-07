@@ -2,8 +2,7 @@
   "name": "rent_games_and_stuff",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack",
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -18,10 +17,10 @@
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
-    "autoprefixer": "^9.6.5",
+    "autoprefixer": "^9.7.4",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.2.0",
+    "css-loader": "^3.4.2",
     "cssnano": "^4.1.10",
     "fs-extra": "^8.1.0",
     "html-webpack-plugin": "^3.2.0",
@@ -30,11 +29,11 @@
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.2",
-    "postcss-nested": "^4.1.2",
+    "postcss-nested": "^4.2.1",
     "postcss-simple-vars": "^5.0.2",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.9.0"
   },
   "repository": {
