@@ -1,8 +1,11 @@
 .large-hero{
     position: relative;
-    margin: 0;
-    padding:0;
-    .large-hero__text-content{
+}
+.large-hero > img {
+    width: 100%;
+    height: 400px;
+}
+.large-hero__text-content{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
@@ -10,8 +13,6 @@
     width:100%;
     text-align:center;
 }
-}
-
 .large-hero__title{
     font-weight: 300;
     color:#2f5572;
