@@ -1,4 +1,5 @@
 import '../styles/styles.css'
+import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
@@ -22,9 +23,6 @@ document.querySelectorAll(".open-modal").forEach(el => {
       }
   })
 })
-
-
-
 
 if (module.hot) {
   module.hot.accept()
